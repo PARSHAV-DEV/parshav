@@ -9,7 +9,7 @@ function App() {
     <>
       <Header/>
       <ProfilePage />  
-      <Footer /> 
+      {/* <Footer />  */}
     </>
   )
 }
