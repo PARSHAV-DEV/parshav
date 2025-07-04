@@ -1,10 +1,11 @@
 import React from "react";
+import profile from "../assets/profile.jpg"; // Adjust the path as necessary
 
 const Header = () => {
   return (
     <header className="site-header">
       <div className="container">
-        <img src="/images/profile.jpg" alt="Parshav Gundigara" className="profile-pic" />
+        <img src={profile} alt="Parshav Gundigara" className="profile-pic" />
         <h1>Parshav Gundigara</h1>
         <p className="subtitle">
           Full Stack Web Developer | PHP • JavaScript • MySQL • Big Data • MongoDB

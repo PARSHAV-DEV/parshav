@@ -1,4 +1,6 @@
 import React from "react";
+import linkedin from '../assets/images/linkedin.jpg';
+import github from "../assets/images/github.jpg"; // Adjust the path as necessary
 
 const currentYear = new Date().getFullYear();
 
@@ -15,7 +17,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             aria-label="LinkedIn"
           >
-            <img src="/images/linkedin.jpg" alt="LinkedIn" />
+            <img src={linkedin} alt="LinkedIn" />
           </a>
           <a
             href="https://github.com/PARSHAV-DEV"
@@ -23,7 +25,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             aria-label="GitHub"
           >
-            <img src="/images/github.jpg" alt="GitHub" />
+            <img src={github}alt="GitHub" />
           </a>
         </div>
       </div>
