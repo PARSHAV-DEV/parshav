@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import linkedin from '../assets/images/linkedin.jpg';
 import github from "../assets/images/github.jpg"; // Adjust the path as necessary
 
-const currentYear = new Date().getFullYear();
 
 const Footer = () => {
-
+  
+  const [currentYear, setCurrentYear] = useState();
+  setCurrentYear(new Date().getFullYear());
   return (
     <footer className="site-footer">
       <div className="container">
