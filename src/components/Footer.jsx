@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import linkedin from '../assets/images/linkedin.jpg';
-import github from "../assets/images/github.jpg"; // Adjust the path as necessary
-
+import github from "../assets/images/github.jpg";
 
 const Footer = () => {
-  
-  const [currentYear, setCurrentYear] = useState();
-  setCurrentYear(new Date().getFullYear());
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="site-footer">
       <div className="container">
@@ -26,12 +24,12 @@ const Footer = () => {
             rel="noopener noreferrer"
             aria-label="GitHub"
           >
-            <img src={github}alt="GitHub" />
+            <img src={github} alt="GitHub" />
           </a>
         </div>
       </div>
     </footer>
-  )
+  );
 };
 
 export default Footer;
