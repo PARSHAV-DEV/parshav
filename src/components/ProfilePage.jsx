@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 
 // Dummy data for certificates; replace URLs as needed
 const certificates = [
