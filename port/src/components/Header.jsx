@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-scroll"; // or use <a href="#..."> if not using react-scroll
+import { Link } from "react-scroll"; // or use <a href="#..."> if not using react-scroll
 
 const Header = () => (
   <header className="site-header">
